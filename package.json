@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint --fix ./**/*.{js,ts,json}",
+    "lint:fix": "eslint --fix ./**/*.{js,ts}",
     "typescript": "tsc --project tsconfig.json --noEmit",
     "prettier": "prettier src -check",
     "configure-husky": "npx husky install && npx husky add .husky/pre-commit \"npx --no-install lint-staged\""
