@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "npx --no-install lint-staged",
     "lint": "next lint",
     "lint:fix": "eslint --fix ./**/*.{js,ts}",
     "typescript": "tsc --project tsconfig.json --noEmit",
